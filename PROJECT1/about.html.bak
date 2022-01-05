@@ -1,0 +1,59 @@
+<doctype html>
+<html>
+<head>
+<title>asdf</title>
+<link rel="stylesheet" href="about.css">
+<script src="#.js"></script>
+</head>
+<body>
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>A restaurant is a business that prepares and serves food and drinks to customers.[1] Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services. Restaurants vary greatly in appearance and offerings, including a wide variety of cuisines and service models ranging from inexpensive fast food restaurants and cafeterias, to mid-priced family restaurants, to high-priced luxury establishments.</p>
+  <p>A company, abbreviated as co., is a legal entity representing an association of people, whether natural, legal or a mixture of both, with a specific objective. Company members share a common purpose and unite to achieve specific, declared goals.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\ta\Desktop\PROJECT1\image\apj.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>APJ ABDUL KALAM</h2>
+        <p class="title">SCIENTSTS</p>
+        <p>Avul Pakir Jainulabdeen Abdul Kalam was an Indian aerospace scientist who served as the 11th president of India from 2002 to 2007. He was born and raised in Rameswaram, Tamil Nadu and studied physics and aerospace engineering.</p>
+        <p>jane@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\ta\Desktop\PROJECT1\image\agb.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>ALEXANDER GRAHAM BELL</h2>
+        <p class="title">SCIENTISTS</p>
+        <p>Alexander Graham Bell is most well known for inventing the telephone.  He came to the U.S as a teacher of the deaf, and conceived the idea of "electronic speech" while visiting his hearing-impaired mother in Canada. This led him to invent the microphone and later the "electrical speech machine" -- his name for the first telephone. 
+
+Bell was born in Edinburgh, Scotland on March 3, 1847. He enrolled in the University of London to study anatomy and physiology, but his college time was cut short when his family moved to Canada in 1870.  His parents had lost two children to tuberculosis, and they insisted that the best way to save their last child was to leave England. .</p>
+        <p>mike@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\ta\Desktop\PROJECT1\image\ein.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>ALBERT EINSTEIN</h2>
+        <p class="title">SCIETISTS</p>
+        <p>Albert Einstein was a German mathematician and physicist who developed the special and general theories of relativity. In 1921, he won the Nobel Prize for physics for his explanation of the photoelectric effect. In the following decade, he immigrated to the U.S. after being targeted by the German Nazi Party..</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

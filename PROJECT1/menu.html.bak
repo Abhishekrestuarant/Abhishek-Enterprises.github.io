@@ -1,0 +1,490 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+div.gallery {
+  margin: 10px;
+  padding:20px;
+  color:red;
+  background-color:lightgreen;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+}
+
+div.gallery:hover {
+  border: 1px solid black;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 248px;
+  height: 100px;
+  
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+.checked {
+  color: orange;
+}
+</style>x
+</head>
+<body>
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+  
+    <img src="C:\Users\ta\Desktop\1\ak\m1.jpg" alt="Cinque Terre" width="800" height="400">
+  </a>
+  
+  <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>FULL PLATE Rs 200</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>HALF PLATE Rs 100</h2>
+    </div>
+  </div>
+</div>
+<button class="btn" type="submit">
+  <a href="jail.html">Button</a></button>
+ 
+  <div class="desc">CHICKEN BIRYANI</div>
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="C:\Users\ta\Desktop\1\ak\m2.jpg" alt="Forest" width="800" height="400">
+  </a><div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>FULL PLATE Rs 200</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>HALF PATE Rs 100</h2>
+    </div>
+  </div>
+</div>
+  <button class="btn" type="submit">
+  <a href="tracker.html">Button</a></button>
+  <div class="desc">SAHI PANNER</div>
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="C:\Users\ta\Desktop\1\ak\m3.jpg" alt="Northern Lights" width="800" height="400">
+  </a>
+  <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>SINGLE PIC Rs 60</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>DOUBLE PIC Rs 120</h2>
+    </div>
+  </div>
+</div>
+  <button class="btn" type="submit">
+  <a href="tracker.html">Button</a></button>
+  <div class="desc">BURGER</div>
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="C:\Users\ta\Desktop\1\ak\m4.jpg" alt="Mountains" width="800" height="400">
+  </a>
+  <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>1KG Rs 750</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>500GM Rs 375</h2>
+    </div>
+  </div>
+</div>
+<button class="btn" type="submit">
+  <a href="tracker.html">Button</a></button>
+  <div class="desc">CAKE</div>
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="C:\Users\ta\Desktop\1\ak\m5.jpg" alt="Cinque Terre" width="800" height="400">
+  </a>
+  <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>FULL PLATE Rs 120</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>HALF PLATE Rs 60</h2>
+    </div>
+  </div>
+</div>
+<button class="btn" type="submit">
+  <a href="tracker.html">Button</a></button>
+  <div class="desc">CHOWMEIN</div>
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="C:\Users\ta\Desktop\1\ak\m6.jpg" alt="Forest" width="800" height="400">
+  </a>
+  <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>FULL PLATE Rs 90</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>HALF PLATE Rs 45</h2>
+    </div>
+  </div>
+</div>
+<button class="btn" type="submit">
+  <a href="tracker.html">Button</a></button>
+  <div class="desc">DOSA</div>
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="C:\Users\ta\Desktop\1\ak\m7.jpg" alt="Northern Lights" width="800" height="400">
+  </a>
+  <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>FULL PLATE Rs 260</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>HALF PLATE Rs 130</h2>
+    </div>
+  </div>
+</div>
+<button class="btn" type="submit">
+  <a href="tracker.html">Button</a></button>
+  <div class="desc">CHICKEN LOLLIPOP</div>
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="C:\Users\ta\Desktop\1\ak\m8.jpg" alt="Mountains" width="800" height="400">
+  </a>
+  <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>SINGLE PIC Rs 60</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>DOUBLE PIC Rs 120</h2>
+    </div>
+  </div>
+</div>
+<button class="btn" type="submit">
+  <a href="tracker.html">Button</a></button>
+  <div class="desc">TANDORI ROTI</div>
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="C:\Users\ta\Desktop\1\ak\m9.jpg" alt="Mountains" width="800" height="400">
+  </a>
+  <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>FULL PLATE Rs 220</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>HALF PLATE Rs 110</h2>
+    </div>
+  </div>
+</div>
+<button class="btn" type="submit">
+  <a href="tracker.html">Button</a></button>
+  <div class="desc">VEG PULAO</div>
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="C:\Users\ta\Desktop\1\ak\m10.jpg" alt="Mountains" width="800" height="400">
+  </a>
+  <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>FULL PLATE Rs 100</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>HALF PLATE Rs 50</h2>
+    </div>
+  </div>
+</div>
+<button class="btn" type="submit">
+  <a href="tracker.html">Button</a></button>
+  <div class="desc">MOMOS</div>
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="C:\Users\ta\Desktop\1\ak\m11.jpg" alt="Mountains" width="800" height="400">
+  </a>
+  <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>FULL PLATE Rs 240</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>HALF PLATE Rs 120</h2>
+    </div>
+  </div>
+</div>
+<button class="btn" type="submit">
+  <a href="tracker.html">Button</a></button>
+  <div class="desc">PALAK PANNER</div>
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="C:\Users\ta\Desktop\1\ak\m12.jpg" alt="Mountains" width="800" height="400">
+  </a>
+  <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>SINGLE PIC Rs 40</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>DOUBLE PC Rs 80</h2>
+    </div>
+  </div>
+</div>
+<button class="btn" type="submit">
+  <a href="tracker.html">Button</a></button>
+  <div class="desc">EGG ROLL</div>
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="C:\Users\ta\Desktop\1\ak\m13.jpg" alt="Mountains" width="800" height="400">
+  </a>
+  <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>SINGLE PIC Rs 15</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>DOUBLE PIC Rs 20</h2>
+    </div>
+  </div>
+</div>
+<button class="btn" type="submit">
+  <a href="tracker.html">Button</a></button>
+  <div class="desc">BREAD PAKORA</div>
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="C:\Users\ta\Desktop\1\ak\m14.jpg" alt="Mountains" width="800" height="400">
+  </a>
+  <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>FULL PLATE Rs 200</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>HALF PLATE Rs 100</h2>
+    </div>
+  </div>
+</div>
+<button class="btn" type="submit">
+  <a href="tracker.html">Button</a></button>
+  <div class="desc">KAWAB</div>
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="C:\Users\ta\Desktop\1\ak\m15.jpg" alt="Mountains" width="800" height="400">
+  </a>
+  <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>FULL PLATE Rs 240</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>HALF PLATE Rs 120</h2>
+    </div>
+  </div>
+</div>
+<button class="btn" type="submit">
+  <a href="tracker.html">Button</a></button>
+  <div class="desc">FISH CURIE</div>
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="C:\Users\ta\Desktop\1\ak\download.jpg" alt="Mountains" width="800" height="400">
+  </a>
+  <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>FULL PLATE Rs 220</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>HALF PLATE Rs 110</h2>
+    </div>
+  </div>
+</div>
+<button class="btn" type="submit">
+  <a href="tracker.html">Button</a></button>
+  <div class="desc"> VEG MANCHURIYAN</div>
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+
+</body>
+</html>
