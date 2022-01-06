@@ -1,0 +1,416 @@
+<html>
+<head>
+<title>asd</title>
+
+ <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Image Slider</title>
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src=
+        "https://code.jquery.com/jquery-3.6.0.min.js ">
+    </script>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+</head>
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src=
+        "https://code.jquery.com/jquery-3.6.0.min.js ">
+    </script>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+
+
+</head>
+<body>
+<header>
+
+<nav>
+<div class="logo">
+<img src="C:\Users\ta\Desktop\PROJECT1\photo\logo1.jpg">
+</div>
+<div class="menu">
+<a href="index.html">HOME</a>
+<a href="order..html">MENU</a>
+<a href="sign.html">LOGIN</a>
+<a href="ab.html">ABOUT</a>
+<a href="cotact.html">CONTACT</a>
+</div>
+
+         
+ <h1>WELCOME TOABHIESHEK RESTURENT</h1>   
+    <!-- Image menu in Header to contain an Image and
+         a sample text over that image -->
+    <div id="header-image-menu">
+ 
+    </div>
+	
+	
+    <div id="arrow-left" class="arrow"></div>
+    <div class="slide slide1"></div>
+    <div class="slide slide2"></div>
+    <div class="slide slide3"></div>
+    <div id="arrow-right" class="arrow"></div>
+</body>
+  <div id="slider">
+					  <figure>
+						    <img src="C:\Users\ta\Desktop\PROJECT1\photo\h.jpg">
+						    <img src="C:\Users\ta\Desktop\PROJECT1\photo\h1.jpg">
+						    <img src="C:\Users\ta\Desktop\PROJECT1\photo\h2.jpg">
+					  </figure>
+				</div>
+				
+<h1>GOOD PLACE FOR FOODIG AND LODGEING</h1>				
+
+<div class="tata">
+<a href="tracker.html">TRACK</a>
+<a href="jail.html">HOME</a>
+<a href="career.html">CAREER</a>
+<a href="order.html">ORDER</a>
+<a href="c11.html">PARTNER</a>
+
+</div>
+</div>
+
+<!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="C:\Users\ta\Desktop\res\hotel\1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="C:\Users\ta\Desktop\res\hotel\2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="C:\Users\ta\Desktop\res\hotel\3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="C:\Users\ta\Desktop\res\hotel\4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="C:\Users\ta\Desktop\res\hotel\5.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="C:\Users\ta\Desktop\res\hotel\6.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="C:\Users\ta\Desktop\res\hotel\7.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="C:\Users\ta\Desktop\res\hotel\8.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="C:\Users\ta\Desktop\res\hotel\1.jpg" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="C:\Users\ta\Desktop\res\hotel\2.jpg" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="C:\Users\ta\Desktop\res\hotel\3.jpg" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="C:\Users\ta\Desktop\res\hotel\4.jpg" onclick="currentSlide(4)" alt="Lights">
+    </div>
+  </div>
+</div>
+<!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="C:\Users\ta\Desktop\res\hotel\5.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="C:\Users\ta\Desktop\res\hotel\6.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="C:\Users\ta\Desktop\res\hotel\7.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="C:\Users\ta\Desktop\res\hotel\8.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="C:\Users\ta\Desktop\res\hotel\.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="C:\Users\ta\Desktop\res\hotel\.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="C:\Users\ta\Desktop\res\hotel\.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="C:\Users\ta\Desktop\res\hotel\.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="C:\Users\ta\Desktop\res\hotel\5.jpg" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="C:\Users\ta\Desktop\res\hotel\6.jpg" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="C:\Users\ta\Desktop\res\hotel\7.jpg" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="C:\Users\ta\Desktop\res\hotel\8.jpg" onclick="currentSlide(4)" alt="Lights">
+    </div>
+  </div>
+</div>
+<nav class="crumbs">
+    <ol>
+        <li class="crumb"><a href="menu.html">MENU</a></li>
+        <li class="crumb"><a href="gallery.html">GALLERY</a></li>
+        <li class="crumb">ABHISHEK ENTERPRISES</li>
+		<li class="crumb"><a href="review.html">REVIEW</a></li>
+        <li class="crumb"><a href="faq.html">FAQ</a></li>
+    </ol>
+</nav>
+
+
+  <section>
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+        <div class="mb-5 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic">
+            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+          </a>
+        </div>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  </section>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+<footer class="footer-distributed">
+ 
+ <div class="footer-left">
+ 
+ <h3>Abhisek<span>Resturent</span></h3>
+ 
+ <p class="footer-links">
+ <a href="index.html">Home</a>
+ ·
+ <a href="#">Blog</a>
+ ·
+ <a href="#">Pricing</a>
+ ·
+ <a href="about.html">About</a>
+ ·
+ <a href="faq.html">Faq</a>
+ ·
+ <a href="contact.html">Contact</a>
+ </p>
+ 
+ <p class="footer-company-name">Abhishek Enterprises; 2019</p>
+ <div>
+ <i class="fa fa-map-marker"></i>
+ <p><span>Green City</span> Bihar, India</p>
+ </div>
+ 
+ <div>
+ <i class="fa fa-phone"></i>
+ <p>+1 555 123456</p>
+ </div>
+ 
+ <div>
+ <i class="fa fa-envelope"></i>
+ <p><a href="mailto:support@company.com">knowledgezone54@gmail.com</a></p>
+ </div>
+ 
+ </div>
+ 
+ </div>
+ 
+ <div class="footer-center">
+ 
+ <div>
+ <i class="fa fa-map-marker"></i>
+ <p><span>Green City</span> Bihar, India</p>
+ </div>
+ 
+ <div>
+ <i class="fa fa-phone"></i>
+ <p>9709285307</p>
+ </div>
+ 
+ <div>
+ <i class="fa fa-envelope"></i>
+ <p><a href="mailto:support@company.com">knowledgezone54@gmail.com</a></p>
+ </div>
+ 
+ </div>
+ 
+ <div class="footer-right">
+ 
+ <p class="footer-company-about">
+ <span>About the company</span>
+ Abhishek Enterprises Is One Of The Good Place For Fooding And Lodging.
+ </p>
+ 
+ <div class="footer-icons">
+ 
+ <a href="#"><i class="fa fa-facebook"></i></a>
+ <a href="#"><i class="fa fa-twitter"></i></a>
+ <a href="#"><i class="fa fa-linkedin"></i></a>
+ <a href="#"><i class="fa fa-github"></i></a>
+ 
+ </div>
+ 
+ </div>
+ 
+ </footer>
+ 
+ 
+<!-- Footer -->
+<!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+        <div class="mb-5 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic">
+            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+          </a>
+        </div>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</html>
+</body>
+</html>
+</header>
+</body>
+</html>

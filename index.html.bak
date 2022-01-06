@@ -1,0 +1,281 @@
+<doctype html>
+<html>
+<head>
+<title>abhishek</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="script.js"></script>
+</head>
+<body>
+<!-- The navigation menu -->
+<div class="navbar">
+  <a href="index.html">HOME</a>
+  <div class="subnav">
+    <button class="subnavbtn">ABOUT <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="company.html">COMPANY</a>
+      <a href="about.html">TEAM</a>
+      <a href="career1.html">CAREERS</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">SERVICES <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="m.html">BRING</a>
+      <a href="order.html">ORDER</a>
+      <a href="video1.html">VIDEO</a>
+      <a href="ab.html">DEMO</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">PARTNERS <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="c11.html">PARTNER 4</a>
+      <a href="c12.html">PARTNER 3</a>
+      <a href="c13.html">PARTNER 2</a>
+      <a href="c14.html">PARTNER 1</a>
+    </div>
+  </div>
+  <a href="contact.html">CONTACT</a>
+</div>
+
+<div class="logo">WELLCOME TO <span>ABHISHEK</span>ENTERPRISES</div>
+<div class="topnav" id="myTopnav">
+<div class="logo">ABHISHEK<span>RESTURENT</span></div>
+  <a href="home1.html" class="active">HOME</a>
+  <a href="sign.html">LOGIN</a>
+  <a href="contact.html">CONTACT</a>
+  <div class="dropdown">
+    <button class="dropbtn">MENU
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="checkout.html">CHECKOUT</a>
+      <a href="tracker.html">TRACKER</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">OUR PRODUCT
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="review.html">REVIEW</a>
+      <a href="menu.html">MENU</a>
+      <a href="gallery.html">GALLERY</a>
+    </div>
+  </div>
+  <a href="about.html">ABOUT</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1>ABHISHEK ENTERPRISES</h1>
+    <p>VERY SOON OPENING WITH LARGE SCALE OF ITEMS</p>
+    <a href="order.html" target="_blank">MENU</a>
+  </div>
+</div>
+<section>
+
+<section>
+<div class="container">
+<div>
+ <h1>Chicken Biryani</h1>
+      <img class="item" src="C:\Users\ta\Desktop\PROJECT1\image\m1.jpg" alt="Example image"><br><br><br>
+	  <p>Rs 200</p></div>
+	  <div>
+	  <h1>Panner</h1>
+      <img class="item" src="C:\Users\ta\Desktop\PROJECT1\image\m2.jpg" alt="Example image">
+	  <p>Rs 150</p>
+	  </div>
+	  <div>
+	  <h1>Burger</h1>
+      <img class="item" src="C:\Users\ta\Desktop\PROJECT1\image\m3.jpg" alt="Example image"><br><br><br><br>
+	  <p>Rs 100</p>
+	  </div>
+	  <div>
+	  <h1>Cake</h1>
+      <img class="item" src="C:\Users\ta\Desktop\PROJECT1\image\m4.jpg" alt="Example image">
+	  <p>Rs 400</p>
+	  </div>
+	  <div>
+	  <h1>Veg Chowmein</h1>
+      <img class="item" src="C:\Users\ta\Desktop\PROJECT1\image\m5.jpg" alt="Example image"><br><br>
+	  <p>Rs 120</p>
+	  </div>
+	  <div>
+	  <h1>Dosa</h1>
+      <img class="item" src="C:\Users\ta\Desktop\PROJECT1\image\m6.jpg" alt="Example image">
+	  <p>Rs 140</p>
+	  </div>
+	  <div>
+	  <h1>Chicken Lollypop</h1>
+	  <img class="item" src="C:\Users\ta\Desktop\PROJECT1\image\m7.jpg" alt="Example image">
+	  <p>Rs 200</p>
+	  </div>
+	  <div>
+	  <h1>momos</h1>
+      <img class="item" src="C:\Users\ta\Desktop\PROJECT1\image\m10.jpg" alt="Example image"><br><br><br><br>
+	  <p>Rs 80</p>
+	  </div>
+	  <div>
+	  <h1>Palak Panner</h1>
+      <img class="item" src="C:\Users\ta\Desktop\PROJECT1\image\m11.jpg" alt="Example image">
+	  <p>Rs 150</p>
+	  </div>
+	  <div>
+	  <h1>Egg Roll</h1>
+	  
+      <img class="item" src="C:\Users\ta\Desktop\PROJECT1\image\m12.jpg" alt="Example image"><br><br><br><br>
+	  <p>Rs 80</p>
+	  </div>
+      <br> 
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\ta\Desktop\970\photo\photo1.jpg" alt="ABHISHEK" style="width:100%">
+	  
+           
+   
+      <div class="container">
+        <h2>ABHISHEK KUMAR</h2>
+        <p class="title">CEO &amp; Founder</p>
+        <p>Abhishek Kumar is from Kaimur Bihar is managing the organization of Abhishek Enterprises delegating and directing agendas, driving profitability, managing company organizational structure, strategy, and communicating with the board...</p>
+        <p>knowledgezone54@gmail.com</p>
+        <p><a href="jail.html" target="_blank">MENU</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\ta\Desktop\970\photo\photo.3.jpg" alt="RAKESH" style="width:100%">
+      <div class="container">
+        <h2>RAKESH KUMAR</h2>
+        <p class="title">Art Director</p>
+        <p>The term director is a title given to the senior management staff of businesses and other large organisations. The term is in common use with two distinct meanings, the choice of which is influenced by the size and global reach of the organisation..</p>
+        <p>example@example.com</p>
+        <p><a href="gallery.html" target="_blank">MENU</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\ta\Desktop\970\photo\phot.jpg" alt="APJ" style="width:100%">
+      <div class="container">
+        <h2>APJ ABDUL KALAM</h2>
+        <p class="title">Designer</p>
+        <p>Avul Pakir Jainulabdeen Abdul Kalam was an Indian aerospace scientist who served as the 11th president of India from 2002 to 2007.He was born and raised in Rameswaram, Tamil Nadu and studied physics and aerospace engineering..</p>
+        <p>example@example.com</p>
+        <p><a href="jail.html" target="_blank">MENU</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<div class="popup" onclick="myFunction()">Click me!
+  <span class="popuptext" id="myPopup">Popup text...</span>
+</div>
+<div class="whatsapp">
+<div><a href="https://wa.me/<9709285307>" target="_blank"<i class="fa fa-whatsapp"></a></div>
+</div>
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<!-- Footer Elements -->
+
+  <!-- Copyright -->
+<footer class="footer-distributed">
+ 
+ <div class="footer-left">
+ 
+ <h3>Abhisek<span>Resturent</span></h3>
+ 
+ <p class="footer-links">
+ <a href="m.html">HOME</a>
+ ·
+ <a href="#">Blog</a>
+ ·
+ <a href="video1.html">VIDEO</a>
+ ·
+ <a href="about.html">ABOUT</a>
+ ·
+ <a href="faq.html">FAQ</a>
+ .
+ <a href="contact.html">CONTACT</a>
+ </p>
+ 
+ <p class="footer-company-name">Abhishek Enterprises; 2019</p>
+ <div>
+ <i class="fa fa-map-marker"></i>
+ <p><span>Green City</span> Bihar, India</p>
+ </div>
+ 
+ <div>
+ <i class="fa fa-phone"></i>
+ <p>9709285307</p>
+ </div>
+ 
+ <div>
+ <i class="fa fa-envelope"></i>
+ <p><a href="mailto:support@company.com">knowledgezone54@gmail.com</a></p>
+ </div>
+ 
+ </div>
+ 
+ </div>
+ 
+ <div class="footer-center">
+ 
+ <div>
+ <i class="fa fa-map-marker"></i>
+ <p><span>Green City</span> Bihar, India</p>
+ </div>
+ 
+ <div>
+ <i class="fa fa-phone"></i>
+ <p>9709285307</p>
+ </div>
+ 
+ <div>
+ <i class="fa fa-envelope"></i>
+ <p><a href="mailto:support@company.com">knowledgezone54@gmail.com</a></p>
+ </div>
+ 
+ </div>
+ 
+ <div class="footer-right">
+ 
+ <p class="footer-company-about">
+ <span>About the company</span>
+Abhishek Enterprises Is One Of The Good Place For Fooding And Lodging.
+ </p>
+ 
+ <div class="footer-icons">
+ 
+ <a href="#"><i class="fa fa-facebook"></i></a>
+ <a href="#"><i class="fa fa-twitter"></i></a>
+ <a href="#"><i class="fa fa-linkedin"></i></a>
+ <a href="#"><i class="fa fa-github"></i></a>
+ 
+ </div>
+ 
+ </div>
+ 
+ </footer>
+ 
+</body>
+</html>
+</body>
+</html>
